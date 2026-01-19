@@ -1,6 +1,6 @@
 # Create Renaissance App Block
 
-Quickly scaffold a new Renaissance app block from the official template.
+Quickly scaffold a new Renaissance app block from the [official template](https://github.com/buidl-renaissance/renaissance-app-block-template).
 
 ## Usage
 
@@ -37,6 +37,20 @@ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) to see your app.
+
+## Authentication
+
+The template includes a phone + PIN authentication system:
+
+| Endpoint | Description |
+|----------|-------------|
+| `POST /api/auth/register` | Register new user with phone + PIN |
+| `POST /api/auth/phone-login` | Login with phone + PIN |
+| `POST /api/auth/set-pin` | Set PIN for existing user |
+| `POST /api/auth/context` | Auth from Renaissance app context |
+| `POST /api/auth/logout` | Clear session |
+
+**Security:** Account locks after 3 failed attempts. PINs are hashed with bcrypt. Sessions expire after 24 hours.
 
 ## Environment Variables
 
