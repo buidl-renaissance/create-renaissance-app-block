@@ -1,5 +1,5 @@
 {
-  "name": "create-renaissance-app-block",
+  "name": "@buidl-renaissance/create-renaissance-app-block",
   "version": "1.0.0",
   "description": "Create a new Renaissance app block from the template",
   "main": "index.js",
@@ -24,5 +24,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/buidl-renaissance/renaissance-app-block-template.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
