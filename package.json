@@ -7,7 +7,8 @@
     "create-renaissance-app-block": "./index.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "README.md"
   ],
   "keywords": [
     "renaissance",
