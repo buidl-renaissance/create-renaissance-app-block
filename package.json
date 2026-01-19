@@ -1,0 +1,28 @@
+{
+  "name": "create-renaissance-app-block",
+  "version": "1.0.0",
+  "description": "Create a new Renaissance app block from the template",
+  "main": "index.js",
+  "bin": {
+    "create-renaissance-app-block": "./index.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "renaissance",
+    "next.js",
+    "template",
+    "create-app",
+    "app-block"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buidl-renaissance/renaissance-app-block-template.git"
+  }
+}
