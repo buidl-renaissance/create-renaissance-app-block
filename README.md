@@ -38,21 +38,6 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) to see your app.
 
-## Project Structure
-
-```
-my-project/
-├── src/
-│   ├── components/     # React components
-│   ├── contexts/       # React contexts (Theme, User)
-│   ├── db/             # Database schema and utilities
-│   ├── pages/          # Next.js pages and API routes
-│   └── styles/         # Global styles and theme
-├── drizzle/            # Database migrations
-├── public/             # Static assets
-└── env.example         # Environment variables template
-```
-
 ## Environment Variables
 
 Copy `env.example` to `.env` and configure your variables:
